@@ -1,0 +1,25 @@
+body{
+  background:#f1ffff;
+  text-align: center;
+}
+img{
+  width:40%;
+}
+.card{
+  background-color:lightblue;
+  width: 20%;
+  border-radius: 2em;
+}
+#card{
+  justify-content: space-around;
+  display: flex;
+  margin: 5%;
+}
+.card:hover{
+  box-shadow:1px 8px 8px 1px pink;
+}
+@media only screen and (min-device-width:350px) and (max-device-width:460px){
+  .card{
+    width: 100%;
+  }
+}
